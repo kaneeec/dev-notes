@@ -1,3 +1,5 @@
+> Do not take all of it literally but rather think of each item and how can you use it for the best.
+
 # Core Design Principles
 - It's impossible to get anything right for the first time, don't be afraid to rewrite it. Software is never written, it's always rewritten
 - KISS: keeps you focused, only solves problems we know about, fails less, easier to understand
@@ -20,6 +22,9 @@
   - Use inheritance only for substitutability
   - If object B _should be used anywhere object A is used_, use inheritance
   - If object B _uses object A_, use composition / delegation
+- Decouple using Dependency Inversion Principle
+  - Class should not depend on another class but they both should depend on an abstraction
+  - Use with caution, too much abstraction increases complexity
 
 # Dangerous people
 - Who don't follow instructions
