@@ -11,20 +11,24 @@
 - Don't make decisions immediatelly, take some time to collect more information about the problem...then you can make better decisions
 - We want cohesive code have smaller pieces of well written code, couple things related, isolated unrelated
 - Reduce coupling (don't interfere with previous note about cohesion)
-- Single Responsibility Principle (SRP)
+- **S**ingle Responsibility Principle (SRP)
   - Beware long methods: hard to test, read, reuse, optimize, change, debug, lack cohesion, ...
   - Single Level Of Abstraction
   - Don't comment, refactor instead (more readable code, no obsolete comments)
   - Use compose method pattern
-- Open Closed Principle (OCP)
+- **O**pen Closed Principle (OCP)
   = open for extension, closed for modification
-- Liskov's Subtitution Principle (LSP)
+- **L**iskov's Subtitution Principle (LSP)
   - Use inheritance only for substitutability
   - If object B _should be used anywhere object A is used_, use inheritance
   - If object B _uses object A_, use composition / delegation
-- Decouple using Dependency Inversion Principle
+- **I**nterface Segreggation Principle (ISP)
+  - No client should be forced to use methods he doesn't need -> Create simple interfaces for one thing and one thing only
+- **D**ecouple using Dependency Inversion Principle (DIP)
   - Class should not depend on another class but they both should depend on an abstraction
   - Use with caution, too much abstraction increases complexity
+
+
 
 # Dangerous people
 - Who don't follow instructions
