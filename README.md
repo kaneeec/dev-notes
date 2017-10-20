@@ -28,11 +28,8 @@
   - Class should not depend on another class but they both should depend on an abstraction
   - Use with caution, too much abstraction increases complexity
 
-
+> **Source:** Core Design Principles for Software Developers (https://www.youtube.com/watch?v=llGgO74uXMI)
 
 # Dangerous people
 - Who don't follow instructions
 - Who always follow instructions, literally
-
-# Sources
-- Core Design Principles for Software Developers (https://www.youtube.com/watch?v=llGgO74uXMI)
